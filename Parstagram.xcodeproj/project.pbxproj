@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,12 +11,13 @@
 		579798E4448B2C5FA090E51C /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EED377B15DC3073BE69C3A /* Pods_Parstagram.framework */; };
 		9193A9AD2404744600929FD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9193A9AC2404744600929FD3 /* AppDelegate.swift */; };
 		9193A9AF2404744600929FD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9193A9AE2404744600929FD3 /* SceneDelegate.swift */; };
-		9193A9B12404744600929FD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9193A9B02404744600929FD3 /* ViewController.swift */; };
 		9193A9B42404744600929FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9193A9B22404744600929FD3 /* Main.storyboard */; };
 		9193A9B62404744900929FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9193A9B52404744900929FD3 /* Assets.xcassets */; };
 		9193A9B92404744900929FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9193A9B72404744900929FD3 /* LaunchScreen.storyboard */; };
 		9193A9C42404744900929FD3 /* ParstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9193A9C32404744900929FD3 /* ParstagramTests.swift */; };
 		9193A9CF2404744900929FD3 /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9193A9CE2404744900929FD3 /* ParstagramUITests.swift */; };
+		9193A9DD2404819900929FD3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9193A9DC2404819900929FD3 /* LoginViewController.swift */; };
+		9193A9DF240481B800929FD3 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9193A9DE240481B800929FD3 /* FeedViewController.swift */; };
 		EA4D537D36AC21FC0DCA8902 /* Pods_ParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDE08ED29957FC37ADC5A6C2 /* Pods_ParstagramTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +46,6 @@
 		9193A9A92404744600929FD3 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9193A9AC2404744600929FD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9193A9AE2404744600929FD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9193A9B02404744600929FD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9193A9B32404744600929FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9193A9B52404744900929FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9193A9B82404744900929FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +56,8 @@
 		9193A9CA2404744900929FD3 /* ParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9193A9CE2404744900929FD3 /* ParstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITests.swift; sourceTree = "<group>"; };
 		9193A9D02404744900929FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9193A9DC2404819900929FD3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9193A9DE240481B800929FD3 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		BDE08ED29957FC37ADC5A6C2 /* Pods_ParstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F8E21560BF28A104CF9934 /* Pods-Parstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.debug.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.debug.xcconfig"; sourceTree = "<group>"; };
 		CFAEE11F8498D922221F03D5 /* Pods-Parstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.release.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,11 +120,12 @@
 			children = (
 				9193A9AC2404744600929FD3 /* AppDelegate.swift */,
 				9193A9AE2404744600929FD3 /* SceneDelegate.swift */,
-				9193A9B02404744600929FD3 /* ViewController.swift */,
 				9193A9B22404744600929FD3 /* Main.storyboard */,
 				9193A9B52404744900929FD3 /* Assets.xcassets */,
 				9193A9B72404744900929FD3 /* LaunchScreen.storyboard */,
 				9193A9BA2404744900929FD3 /* Info.plist */,
+				9193A9DC2404819900929FD3 /* LoginViewController.swift */,
+				9193A9DE240481B800929FD3 /* FeedViewController.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -155,7 +158,6 @@
 				8259121D6097657958A2BD1F /* Pods-ParstagramTests.debug.xcconfig */,
 				F24BBA6F3A2BE9216F39FA6A /* Pods-ParstagramTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -408,8 +410,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9193A9B12404744600929FD3 /* ViewController.swift in Sources */,
+				9193A9DD2404819900929FD3 /* LoginViewController.swift in Sources */,
 				9193A9AD2404744600929FD3 /* AppDelegate.swift in Sources */,
+				9193A9DF240481B800929FD3 /* FeedViewController.swift in Sources */,
 				9193A9AF2404744600929FD3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
