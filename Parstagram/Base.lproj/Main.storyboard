@@ -100,24 +100,27 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c1e-YA-aav">
-                                                    <rect key="frame" x="8" y="8" width="398" height="328"/>
+                                                    <rect key="frame" x="8" y="8" width="302" height="249"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="c1e-YA-aav" secondAttribute="height" multiplier="199:164" id="dbI-9d-fZY"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbe-gM-Uzm">
-                                                    <rect key="frame" x="8" y="344" width="29" height="21"/>
+                                                    <rect key="frame" x="8" y="265" width="10" height="100"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="21" id="hio-m6-jzn"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="d3j-2c-cJE"/>
+                                                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="hio-m6-jzn"/>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="q3F-6M-Qfb"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wow, I love photos!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bl7-s1-lft">
-                                                    <rect key="frame" x="45" y="344" width="147.5" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Wow, I love photos!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bl7-s1-lft">
+                                                    <rect key="frame" x="-8" y="265" width="0.0" height="100"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="21" id="V2X-bK-s7G"/>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="V2X-bK-s7G"/>
+                                                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="mTX-8n-DKY"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -133,8 +136,8 @@
                                                 <constraint firstAttribute="bottom" secondItem="Bl7-s1-lft" secondAttribute="bottom" constant="15" id="aCV-Uw-fxn"/>
                                                 <constraint firstAttribute="bottom" secondItem="cbe-gM-Uzm" secondAttribute="bottom" constant="15" id="aaS-qY-zBo"/>
                                                 <constraint firstItem="Bl7-s1-lft" firstAttribute="leading" secondItem="cbe-gM-Uzm" secondAttribute="trailing" constant="8" id="mvJ-fc-ODc"/>
+                                                <constraint firstAttribute="trailing" secondItem="Bl7-s1-lft" secondAttribute="trailing" constant="8" id="pR3-74-8TW"/>
                                                 <constraint firstAttribute="trailing" secondItem="c1e-YA-aav" secondAttribute="trailing" constant="8" id="pVx-ve-d5y"/>
-                                                <constraint firstItem="Bl7-s1-lft" firstAttribute="top" secondItem="c1e-YA-aav" secondAttribute="bottom" constant="8" id="xyb-XU-jVa"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
